@@ -27,16 +27,56 @@ header h1 {
     font-size: 10vw;
 }
 
-header p {
+header, footer p {
     font-weight: 400;
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-header a {
+header, footer a {
     color: white;
     font-weight: bolder;
 }
 
-header a:hover {
+header, footer a:hover {
     text-decoration: underline;
+}
+
+section {
+    font-family: var(--fonte02);
+    font-size: 3.5vw;
+    padding: 50px 0 50px 20px;
+    line-height: 2.1;
+}
+
+section.especial {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+section.especial > p {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.541);
+    padding: 0 5px;
+}
+
+#q1 {
+    background-color: #002400;
+    background-image: url(imagens/background001.jpg);
+    background-position: right bottom;
+}
+
+#q2 {
+    background-color: #9DA685;
+    background-image: url(imagens/background002.jpg);
+    background-position: left top;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-family: var(--fonte01);
+    text-align: center;
+    padding: 10px;
 }
