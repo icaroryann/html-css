@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    header {
+        height: auto;
+    }
+
+    header > .botao-menu {
+        display: none;
+    }
+
+    header > nav {
+        height: auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+    }
+
+    header > nav > a {
+        margin-right: 10px;
+        flex: 0 1 90px;
+    }
+
+    header > nav > a > div {
+        border-radius: 5px 5px 0 0;
+    }
+}

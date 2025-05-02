@@ -36,15 +36,6 @@ header .botao-menu {
     text-align: center;
 }
 
-header .botao-menu:hover {
-    background-color: white;
-    color: black;
-}
-
-header .botao-menu:hover > span {
-    color: black;
-}
-
 header .botao-menu > span {
     font-size: 2em;
     color: white;
