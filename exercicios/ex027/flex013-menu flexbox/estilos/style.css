@@ -29,14 +29,14 @@ header h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.384);
 }
 
-header .botao-menu {
+header > .botao-menu {
     background-color: black;
     cursor: pointer;
     align-self: stretch;
     text-align: center;
 }
 
-header .botao-menu > span {
+header>  .botao-menu > span {
     font-size: 2em;
     color: white;
 }
@@ -66,4 +66,12 @@ main > section {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.356);
+}
+
+main > section > h2 {
+    margin-bottom: 10px;
+}
+
+main > section > p {
+    text-indent: 20px;
 }
